@@ -18,6 +18,7 @@ module.exports = function(app) {
    
     
       friendsList.push(req.body);
+      console.log(friendsList.scores);
       res.json(true);
     
   });
